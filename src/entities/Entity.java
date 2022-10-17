@@ -6,7 +6,7 @@ public class Entity implements Coordinate {
     private double VX;
     private double VY;
     private State state;
-    private final double radius;
+    private double radius;
 
     public Entity(State state, double radius) {
         this.state = state;
@@ -61,5 +61,9 @@ public class Entity implements Coordinate {
 
     public double getRadius() {
         return radius;
+    }
+
+    protected void setRadius(double radius) {
+        this.radius = radius;
     }
 }

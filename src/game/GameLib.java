@@ -100,12 +100,6 @@ public class GameLib {
 		int width = (int) Math.round(2 * radius);
 		int height = (int) Math.round(2 * radius);
 
-		System.out.println("x: " + x);
-		System.out.println("y: " + y);
-		System.out.println("wi: " + width);
-		System.out.println("he: " + height);
-
-
 		g.drawOval(x, y, width, height);
 	}
 	
